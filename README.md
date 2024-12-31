@@ -32,6 +32,6 @@ of the correct safety measures to protect their accounts. To assist customers wi
 
 • Android Studio
 
-• Java
+
 
 
