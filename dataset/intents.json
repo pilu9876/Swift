@@ -1,0 +1,78 @@
+{
+  "intents": [
+    {
+      "tag": "discoTerms",
+      "patterns": ["Can I select my EMI amount?", "I have not received any letter asking my confirmation", "Why I am not able to select loan tenure below 6 month?", "If I Pay some Lumpsum amount ,will my EMI reduce?",   "Can I get credit of loan amount in Account other than mentioned on the screen", "Can I enter a mobile number other than the one used for downloading the app.", "Can I avail 2 Pre-approved Loans", "Can FATCA status be updated later?", "Is the Interest rate  fixed or floating?", "Why I am not able to select loan amount below 25000?", "Which Branch do I have to go for signing the documents?", "What if I want loan for higher amount and longer duration?", "What happens if there is a spelling mistake in my name printed on Adhaar card?", "My mobilebanking app is not working . What to do?"],
+       "responses": ["Sure, you can select your EMI amount for your loan. Please provide me with the amount you would like to pay each month and I can help you calculate the EMI.","If you haven't received a letter from your bank requesting confirmation, contact them to inquire and update your contact information if necessary.","Minimum loan term is 6 months.", "Yes, Lumpsum payment reduces loan amount and interest, resulting in lower EMI.", " Account details cannot be changed once loan application is submitted. Contact customer service for assistance.", "Use any valid mobile number for app registration. Login with registered mobile number and password. Contact customer service for assistance."," Check terms, contact customer service to know if multiple pre-approved loans possible. Evaluate finances before applying.", " Update FATCA status promptly. Submit documents to bank. Consult tax advisor if needed. Avoid penalties.", "iNeuron.ai bank offers attractive interest rates on various deposit and savings schemes.", "the loan product has a minimum loan amount requirement of 25000.", "No. 250, First Stage, Behind Halsoor Lake, Bangalore - 560008"," Check eligibility for higher loan amount and longer duration. Contact customer service for details."," Correct name spelling on Aadhaar card ASAP.", "Restart your phone and try the camera again.", " Old Mobilebanking app now available in App Store and Playstore. Download and use."]},
+{"tag": "Greetings",
+      "patterns": ["Hi how are you", "how are you", "Hi", "Hello", "Howdy", "Good Day"],
+	  "responses": ["Hello! How can I assist you with your banking needs today?"]},
+{"tag": "recommend",
+      "patterns": ["looking to purchase", "suggest me some gifts", "want to buy", "can you recommend", "what are the recommendations for", "looking for a loan"],
+	  "responses": ["What do you want to buy? Can you please provide more information?", "What are you looking to buy or what do you need a recommendation for?", " We offer personal, home, and auto loans. How can I assist you today?"]},
+{"tag": "Viewtransactions",
+      "patterns": ["what were my expenses", "what were my transactions", "list down by recent transactions", "can i have a look at my transactions", "provide me an account statement", "show my transactions", "view my transactions", "what are the activities on my account", "what were my dining expenses"],
+	  "responses": ["Your transaction details are"]},
+
+{"tag": "representative",
+      "patterns": ["speak to someone", "speak to a representative", "can i speak to someone", "representative", "i need help"],
+      "responses": ["Contact us at 1800 202 6122 / 1860 267 6125 (India) or +912261717806 for Imperia Account, Diner Black Credit Card, and Infinia Credit Card customers."]},
+{"tag": "Addbeneficiary",
+      "patterns": ["add an account for transferring money", "add a beneficiary"],
+  "responses": ["To add a beneficiary, provide their name, account number, and type. For transfers, provide account holder's name, account number, type, routing number, and additional bank requirements."]},
+{"tag": "register",
+      "patterns": ["i want to apply", "can you help me with the process to register", "i want to sign up", "what is the registration process", "start a relationship", "looking to open an account", "how can i apply", "how can i register myself", "how to open an account", "how to register", "i want to register"],
+"responses": ["To open an account, choose the account type, gather required documents, fill out the application, fund the account, and wait for approval."]},
+{"tag": "FundTransfer",
+      "patterns": ["P2P fund transfer", "I want to transfer funds", "fund transfer", "want to transfer money"],
+"responses": ["Enter your iPIN number"]},
+{"tag": "payment",
+      "patterns": ["pay now", "pay my monthly bill", "recharge my mobile", "pay my bills", "pay the last statement balance on", "pay the bill on this", "make a payment", "make bill payment", "pay prepaid bill", "recharge", "refill"],
+"responses": ["Enter your iPIN number"]},
+{"tag": "Forgotpassword",
+      "patterns": ["i dont remember my password", "i need to reset password", "how can i reset my password", "can you help with password reset", "I forgot my password"], 
+"responses":[ "I can assist with a password reset. Please follow the instructions on your bank's website or app. Contact customer support if you need further assistance.."]},
+{"tag": "Excited",
+      "patterns": ["that is great","thats great","thats nice", "wow", "awesome", "great"],
+"responses": ["Glad to be of help! If you need any more assistance, feel free to ask.!"]},
+{  
+ "tag": "LostCard",
+      "patterns": ["lost my card", "freeze my card", "my card is stolen", "card is lost", "need to block my card", "could you block my card", "loss of my card"],
+"responses":["Please contact our customer support at +912261717806 immediately to block your lost card and request a replacement.", "Please provide details about the card number and recent transactions associated with the card"]},
+{
+"tag": "Ok",
+    "patterns": ["cool", "allright", "okay", "okie", "thanks", "all right", "bye", "Thank you", "that is fine", "that was all", "thx", "tx", "cancel", "nothing", "nope", "thanks for your support", "thanks a lot", "no", "ok", "not required", "fine"],
+"responses": ["You're welcome! It was my pleasure to assist you. If you have any more questions or need further support, feel free to reach out."]
+},
+{
+"tag": "Failed",
+      "patterns": ["crashed", "site is down", "session timed out", "out of stock", "not working", "not received", "not loading", "not displayed", "not applied", "My payment did not go through. What do I do?", "i want to return the product", "is not available", "How do I return the product?", "failed", "error on page", "did not go through", "debited twice", "expired", "unavailable", "The product description is different from the display"],
+"responses":["Apologies for the inconvenience. We're working on it."]
+},
+{
+"tag": "branchInfo",
+      "patterns": ["Do we have a branch in new york?", "where are the branches in Bangalore", "i want to visit the nearest branch", "help me with branches in Halasuru", "which are the branches in US?", "is there a branch in cochin", "are there branches outside India", "branch details in India", "could you give me the branch address at Halasuru"],
+      "responses":["No, We don't have", "No. 250, First Stage, Behind Halsoor Lake, Bangalore - 560008"]},
+{
+"tag": "accountbalance",
+      "patterns": ["account bal", "account balance", "balance in my account", "what is my account balance", "whats the balance on my account", "want to check my acct bal", "show all the accounts", "list down my accounts", "credit card balance"],
+      "responses": ["Your account balance is", "credit balance is"]},
+{
+"tag": "Access",
+      "patterns": ["how to select", "i could not find", "i need access to", "not able to access", "not able to check", "not able to select", "how can i check", "how do i check", "how to use"],
+      "responses": ["Apologies, please clear cache/cookies or try a different device/network. Contact support if issue persists."]},
+{
+"tag": "Scam",
+"patterns": ["someone has fraudulently withdrawn money", "Fraudulent transaction in my bank account"],
+"responses":[" Please contact your bank, freeze your accounts, change your passwords, file a police report, monitor your accounts, and report the fraud to the relevant authorities."]
+},
+{
+"tag": "paying",
+"patterns": ["pay to bescom", "pay to Licious", "pay to Nandus", "pay to ZARA", "pay to Social", "pay to MKRetail"],
+"responses":[" Amount to pay?"]
+}
+]}
+
+
+
+

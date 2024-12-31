@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: black;">
+    <table style="width:100%; border: 1px solid white; border-collapse: collapse;">
+        <thead>
+        <tr style="color:white; text-align: center; border: 1px solid white; font-size: 0.875em; border-collapse: collapse;">
+            <td style="border: 1px solid white;">DateTransaction</td>
+            <td style="border: 1px solid white;">Particulars</td>
+            <td style="border: 1px solid white;">Deposits</td>
+            <td style="border: 1px solid white;">Withdrawals</td>
+            <td style="border: 1px solid white;">Balance</td>
+        </tr>
+
+        </thead>
+        <tbody>
+        {% for row in data %}
+        <tr style="color:white; border: 1px solid white; font-size: 0.875em; border-collapse: collapse;">
+            {% for key, value in row.items() %}
+            {% if value == None %}
+            <td style="text-align: center; border: 1px solid white;"></td>
+            {% else %}
+            <td style="text-align: center; border: 1px solid white;">{{value}}</td>
+            {% endif %}
+            {% endfor %}
+
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+
