@@ -8,29 +8,27 @@ of the correct safety measures to protect their accounts. To assist customers wi
 
 # Requirements
 
-• Python 3.9+
+Python
 
-• Flask 2.1.0
+Pytorch
 
-• Werkzeug 2.0.1
+NLP
 
-• numpy 1.19.5
+HTML
 
-• requests 2.24.0
+CSS
 
-• gunicorn 20.1.0
+Javascript
 
-• scikit-learn 1.2.2
+Pandas
 
-• Pillow 8.3.2
+Numpy
 
-• jinja2 3.1.0
+Matplotlib
 
-• tensorflow
+Seaborn
 
-• nltk 3.7
 
-• Android Studio
 
 
 
